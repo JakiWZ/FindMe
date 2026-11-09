@@ -5,9 +5,9 @@ import sqlite3
 from contextlib import contextmanager
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "data" / "findme.db"
-SEED_PATH = BASE_DIR / "data" / "seed.sql"
+BASE_DIR = Path(__file__).resolve().parent.parent  # cartella principale del progetto
+DB_PATH = BASE_DIR / "infrastructure" / "findme.db"
+SEED_PATH = BASE_DIR / "infrastructure" / "seed.sql"
 REPORT_PATH = BASE_DIR / "output" / "report.json"
 
 SCHEMA = """
