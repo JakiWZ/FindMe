@@ -1,0 +1,748 @@
+{
+  "generato_il": "2026-11-09T11:13:57",
+  "oggetti_aperti": 50,
+  "riepilogo_per_luogo": [
+    {
+      "luogo": "Aula 1",
+      "da_restituire": 4,
+      "restituiti": 1
+    },
+    {
+      "luogo": "Aula 2",
+      "da_restituire": 3,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Aula 3",
+      "da_restituire": 4,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Aula 4",
+      "da_restituire": 1,
+      "restituiti": 1
+    },
+    {
+      "luogo": "Aula 5",
+      "da_restituire": 2,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Aula 6",
+      "da_restituire": 1,
+      "restituiti": 2
+    },
+    {
+      "luogo": "Aula 7",
+      "da_restituire": 3,
+      "restituiti": 3
+    },
+    {
+      "luogo": "Aula 8",
+      "da_restituire": 2,
+      "restituiti": 4
+    },
+    {
+      "luogo": "Aula magna",
+      "da_restituire": 4,
+      "restituiti": 2
+    },
+    {
+      "luogo": "Bar",
+      "da_restituire": 8,
+      "restituiti": 2
+    },
+    {
+      "luogo": "Biblioteca",
+      "da_restituire": 2,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Corridoio primo piano",
+      "da_restituire": 2,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Cortile",
+      "da_restituire": 1,
+      "restituiti": 4
+    },
+    {
+      "luogo": "Ingresso",
+      "da_restituire": 2,
+      "restituiti": 3
+    },
+    {
+      "luogo": "Laboratorio di chimica",
+      "da_restituire": 1,
+      "restituiti": 1
+    },
+    {
+      "luogo": "Laboratorio di informatica",
+      "da_restituire": 2,
+      "restituiti": 0
+    },
+    {
+      "luogo": "Mensa",
+      "da_restituire": 5,
+      "restituiti": 3
+    },
+    {
+      "luogo": "Palestra",
+      "da_restituire": 1,
+      "restituiti": 1
+    },
+    {
+      "luogo": "Parcheggio",
+      "da_restituire": 0,
+      "restituiti": 2
+    },
+    {
+      "luogo": "Spogliatoi",
+      "da_restituire": 2,
+      "restituiti": 1
+    }
+  ],
+  "oggetti": [
+    {
+      "id": 40,
+      "descrizione": "Cuffie wireless bianche",
+      "luogo": "Aula 7",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-11-06"
+    },
+    {
+      "id": 44,
+      "descrizione": "Diario scolastico",
+      "luogo": "Parcheggio",
+      "id_utente": 7,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-11-05"
+    },
+    {
+      "id": 32,
+      "descrizione": "Quaderno a quadretti",
+      "luogo": "Mensa",
+      "id_utente": 25,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-11-04"
+    },
+    {
+      "id": 4,
+      "descrizione": "Smartwatch nero",
+      "luogo": "Aula 6",
+      "id_utente": 23,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-11-04"
+    },
+    {
+      "id": 21,
+      "descrizione": "Giubbotto jeans",
+      "luogo": "Cortile",
+      "id_utente": 5,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-11-03"
+    },
+    {
+      "id": 58,
+      "descrizione": "Astuccio a fiori",
+      "luogo": "Aula 6",
+      "id_utente": 2,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-11-02"
+    },
+    {
+      "id": 60,
+      "descrizione": "Agenda rossa",
+      "luogo": "Aula magna",
+      "id_utente": 6,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-11-01"
+    },
+    {
+      "id": 46,
+      "descrizione": "Cappellino da baseball",
+      "luogo": "Laboratorio di chimica",
+      "id_utente": 7,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-31"
+    },
+    {
+      "id": 68,
+      "descrizione": "Penna stilografica",
+      "luogo": "Aula 3",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-29"
+    },
+    {
+      "id": 78,
+      "descrizione": "Caricabatterie USB-C",
+      "luogo": "Bar",
+      "id_utente": 1,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-27"
+    },
+    {
+      "id": 52,
+      "descrizione": "Agenda rossa",
+      "luogo": "Bar",
+      "id_utente": 4,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-27"
+    },
+    {
+      "id": 30,
+      "descrizione": "Zaino viola",
+      "luogo": "Aula 8",
+      "id_utente": 17,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-26"
+    },
+    {
+      "id": 76,
+      "descrizione": "Giacca nera",
+      "luogo": "Biblioteca",
+      "id_utente": 11,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-25"
+    },
+    {
+      "id": 57,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Bar",
+      "id_utente": 22,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-25"
+    },
+    {
+      "id": 51,
+      "descrizione": "Libro di matematica",
+      "luogo": "Aula 7",
+      "id_utente": 3,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-25"
+    },
+    {
+      "id": 3,
+      "descrizione": "Borraccia verde",
+      "luogo": "Aula 6",
+      "id_utente": 8,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-25"
+    },
+    {
+      "id": 64,
+      "descrizione": "Penna stilografica",
+      "luogo": "Aula magna",
+      "id_utente": 11,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-24"
+    },
+    {
+      "id": 5,
+      "descrizione": "Penna stilografica",
+      "luogo": "Aula 8",
+      "id_utente": 1,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-24"
+    },
+    {
+      "id": 48,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Aula 1",
+      "id_utente": 22,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-23"
+    },
+    {
+      "id": 55,
+      "descrizione": "Ombrello blu",
+      "luogo": "Laboratorio di informatica",
+      "id_utente": 1,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-22"
+    },
+    {
+      "id": 56,
+      "descrizione": "Pallone da calcio",
+      "luogo": "Cortile",
+      "id_utente": 10,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-20"
+    },
+    {
+      "id": 27,
+      "descrizione": "Libro di matematica",
+      "luogo": "Aula magna",
+      "id_utente": 9,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-20"
+    },
+    {
+      "id": 14,
+      "descrizione": "Chiavetta USB 32GB",
+      "luogo": "Mensa",
+      "id_utente": 6,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-19"
+    },
+    {
+      "id": 8,
+      "descrizione": "Agenda rossa",
+      "luogo": "Mensa",
+      "id_utente": 20,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-19"
+    },
+    {
+      "id": 15,
+      "descrizione": "Diario scolastico",
+      "luogo": "Aula 8",
+      "id_utente": 23,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-18"
+    },
+    {
+      "id": 24,
+      "descrizione": "Quaderno a quadretti",
+      "luogo": "Aula magna",
+      "id_utente": 16,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-17"
+    },
+    {
+      "id": 41,
+      "descrizione": "Smartwatch nero",
+      "luogo": "Aula 7",
+      "id_utente": 19,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-14"
+    },
+    {
+      "id": 34,
+      "descrizione": "Chiavi con portachiavi rosso",
+      "luogo": "Mensa",
+      "id_utente": 10,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-12"
+    },
+    {
+      "id": 67,
+      "descrizione": "Giubbotto jeans",
+      "luogo": "Aula 2",
+      "id_utente": 1,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-11"
+    },
+    {
+      "id": 72,
+      "descrizione": "Chiavi con portachiavi rosso",
+      "luogo": "Aula 4",
+      "id_utente": 9,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-09"
+    },
+    {
+      "id": 71,
+      "descrizione": "Pallone da calcio",
+      "luogo": "Aula magna",
+      "id_utente": 1,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-09"
+    },
+    {
+      "id": 13,
+      "descrizione": "Agenda rossa",
+      "luogo": "Aula 7",
+      "id_utente": 4,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-08"
+    },
+    {
+      "id": 11,
+      "descrizione": "Guanti di lana",
+      "luogo": "Mensa",
+      "id_utente": 19,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-08"
+    },
+    {
+      "id": 74,
+      "descrizione": "Occhiali da vista",
+      "luogo": "Ingresso",
+      "id_utente": 7,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-05"
+    },
+    {
+      "id": 29,
+      "descrizione": "Calcolatrice scientifica",
+      "luogo": "Aula 3",
+      "id_utente": 10,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-05"
+    },
+    {
+      "id": 75,
+      "descrizione": "Felpa grigia",
+      "luogo": "Aula 1",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 66,
+      "descrizione": "Diario scolastico",
+      "luogo": "Palestra",
+      "id_utente": 15,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 65,
+      "descrizione": "Bracciale d'argento",
+      "luogo": "Ingresso",
+      "id_utente": 8,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 38,
+      "descrizione": "Guanti di lana",
+      "luogo": "Laboratorio di chimica",
+      "id_utente": 7,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 23,
+      "descrizione": "Caricabatterie USB-C",
+      "luogo": "Spogliatoi",
+      "id_utente": 13,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 22,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Bar",
+      "id_utente": 18,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 9,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Cortile",
+      "id_utente": 18,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-04"
+    },
+    {
+      "id": 70,
+      "descrizione": "Ombrello blu",
+      "luogo": "Cortile",
+      "id_utente": 18,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-02"
+    },
+    {
+      "id": 63,
+      "descrizione": "Giacca nera",
+      "luogo": "Corridoio primo piano",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-10-02"
+    },
+    {
+      "id": 50,
+      "descrizione": "Smartwatch nero",
+      "luogo": "Cortile",
+      "id_utente": 5,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-02"
+    },
+    {
+      "id": 17,
+      "descrizione": "Sciarpa a righe",
+      "luogo": "Aula 8",
+      "id_utente": 21,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-02"
+    },
+    {
+      "id": 54,
+      "descrizione": "Cappellino da baseball",
+      "luogo": "Parcheggio",
+      "id_utente": 7,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-01"
+    },
+    {
+      "id": 35,
+      "descrizione": "Thermos metallico",
+      "luogo": "Spogliatoi",
+      "id_utente": 3,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-10-01"
+    },
+    {
+      "id": 42,
+      "descrizione": "Bracciale d'argento",
+      "luogo": "Aula 1",
+      "id_utente": 8,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-29"
+    },
+    {
+      "id": 18,
+      "descrizione": "Auricolari in custodia",
+      "luogo": "Aula 1",
+      "id_utente": 8,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-29"
+    },
+    {
+      "id": 69,
+      "descrizione": "Quaderno a quadretti",
+      "luogo": "Mensa",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-28"
+    },
+    {
+      "id": 20,
+      "descrizione": "Penna stilografica",
+      "luogo": "Ingresso",
+      "id_utente": 7,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-28"
+    },
+    {
+      "id": 7,
+      "descrizione": "Calcolatrice scientifica",
+      "luogo": "Aula 3",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-28"
+    },
+    {
+      "id": 39,
+      "descrizione": "Sciarpa a righe",
+      "luogo": "Mensa",
+      "id_utente": 15,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-26"
+    },
+    {
+      "id": 12,
+      "descrizione": "Giacca nera",
+      "luogo": "Aula 7",
+      "id_utente": 25,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-25"
+    },
+    {
+      "id": 31,
+      "descrizione": "Chiavi con portachiavi rosso",
+      "luogo": "Palestra",
+      "id_utente": 21,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-23"
+    },
+    {
+      "id": 33,
+      "descrizione": "Tuta sportiva",
+      "luogo": "Aula magna",
+      "id_utente": 1,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-21"
+    },
+    {
+      "id": 26,
+      "descrizione": "Caricabatterie USB-C",
+      "luogo": "Corridoio primo piano",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-21"
+    },
+    {
+      "id": 6,
+      "descrizione": "Calcolatrice scientifica",
+      "luogo": "Aula 8",
+      "id_utente": 5,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "descrizione": "Diario scolastico",
+      "luogo": "Bar",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-18"
+    },
+    {
+      "id": 77,
+      "descrizione": "Felpa grigia",
+      "luogo": "Aula 5",
+      "id_utente": 24,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-17"
+    },
+    {
+      "id": 45,
+      "descrizione": "Thermos metallico",
+      "luogo": "Spogliatoi",
+      "id_utente": 19,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-17"
+    },
+    {
+      "id": 37,
+      "descrizione": "Cappellino da baseball",
+      "luogo": "Bar",
+      "id_utente": 6,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-17"
+    },
+    {
+      "id": 10,
+      "descrizione": "Sciarpa a righe",
+      "luogo": "Aula 2",
+      "id_utente": 18,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-16"
+    },
+    {
+      "id": 79,
+      "descrizione": "Thermos metallico",
+      "luogo": "Aula 4",
+      "id_utente": 18,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-15"
+    },
+    {
+      "id": 73,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Bar",
+      "id_utente": 5,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-15"
+    },
+    {
+      "id": 1,
+      "descrizione": "Felpa grigia",
+      "luogo": "Aula 7",
+      "id_utente": 8,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-15"
+    },
+    {
+      "id": 49,
+      "descrizione": "Scarpe da ginnastica",
+      "luogo": "Ingresso",
+      "id_utente": 4,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-13"
+    },
+    {
+      "id": 47,
+      "descrizione": "Caricabatterie USB-C",
+      "luogo": "Mensa",
+      "id_utente": 14,
+      "stato": "restituito",
+      "data_ritrovamento": "2026-09-13"
+    },
+    {
+      "id": 25,
+      "descrizione": "Agenda rossa",
+      "luogo": "Aula 3",
+      "id_utente": 5,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-12"
+    },
+    {
+      "id": 36,
+      "descrizione": "Auricolari in custodia",
+      "luogo": "Aula 2",
+      "id_utente": 25,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-11"
+    },
+    {
+      "id": 16,
+      "descrizione": "Ombrello blu",
+      "luogo": "Bar",
+      "id_utente": 24,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-10"
+    },
+    {
+      "id": 62,
+      "descrizione": "Cuffie wireless bianche",
+      "luogo": "Laboratorio di informatica",
+      "id_utente": 4,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-09"
+    },
+    {
+      "id": 43,
+      "descrizione": "Agenda rossa",
+      "luogo": "Ingresso",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-09"
+    },
+    {
+      "id": 61,
+      "descrizione": "Borraccia verde",
+      "luogo": "Aula 5",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-08"
+    },
+    {
+      "id": 59,
+      "descrizione": "Giacca nera",
+      "luogo": "Aula 1",
+      "id_utente": 19,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-08"
+    },
+    {
+      "id": 53,
+      "descrizione": "Smartwatch nero",
+      "luogo": "Biblioteca",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-07"
+    },
+    {
+      "id": 80,
+      "descrizione": "Penna stilografica",
+      "luogo": "Bar",
+      "id_utente": 5,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-05"
+    },
+    {
+      "id": 19,
+      "descrizione": "Sciarpa a righe",
+      "luogo": "Aula 8",
+      "id_utente": 3,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-05"
+    },
+    {
+      "id": 28,
+      "descrizione": "Chiavi con portachiavi rosso",
+      "luogo": "Bar",
+      "id_utente": 25,
+      "stato": "trovato",
+      "data_ritrovamento": "2026-09-02"
+    }
+  ]
+}
