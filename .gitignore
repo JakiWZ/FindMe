@@ -1,0 +1,5 @@
+# Database locale e output generati
+data/*.db
+output/
+__pycache__/
+.DS_Store
