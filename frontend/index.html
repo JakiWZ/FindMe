@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FindMe – Oggetti smarriti</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><span class="brand"><i class="mark"></i>FindMe</span></header>
+<main class="wrap">
+  <h1>Oggetti smarriti e ritrovati</h1>
+  <p class="mu">Genera il report dal programma Python (scelta <b>8</b> del menu), poi seleziona il file <code>output/report.json</code>.</p>
+  <label class="load">Report JSON<input id="file" type="file" accept=".json,application/json"></label>
+  <p id="msg" class="err" role="status"></p>
+
+  <div id="report" hidden>
+    <p id="generato" class="mu small"></p>
+    <section class="stats">
+      <div class="stat"><span id="sAperti" class="num"></span>da restituire</div>
+      <div class="stat"><span id="sTotale" class="num"></span>oggetti registrati</div>
+      <div class="stat"><span id="sLuoghi" class="num"></span>luoghi</div>
+    </section>
+
+    <h2>Oggetti</h2>
+    <section class="tools">
+      <input id="q" type="search" placeholder="Cerca: zaino, biblioteca, blu…" aria-label="Cerca">
+      <select id="fStato" aria-label="Stato">
+        <option value="">Tutti gli stati</option>
+        <option value="trovato">Da restituire</option>
+        <option value="restituito">Restituiti</option>
+      </select>
+      <select id="fLuogo" aria-label="Luogo"><option value="">Tutti i luoghi</option></select>
+    </section>
+    <p id="count" class="mu"></p>
+    <section id="list" class="grid"></section>
+
+    <h2>Riepilogo per luogo</h2>
+    <table>
+      <thead><tr><th>Luogo</th><th>Da restituire</th><th>Restituiti</th></tr></thead>
+      <tbody id="riepilogo"></tbody>
+    </table>
+  </div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
