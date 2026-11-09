@@ -1,5 +1,18 @@
-# Database locale e output generati
+# Database locale e output generati da Python
 *.db
+*.db-journal
 output/
+
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema operativo
 .DS_Store
+Thumbs.db

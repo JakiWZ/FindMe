@@ -2,6 +2,17 @@
 
 Applicazione **Lost & Found** per la comunità universitaria: chi trova un oggetto lo registra, chi l'ha perso lo cerca e, alla consegna, l'oggetto viene segnato come restituito. Una bacheca raccoglie anche post su eventi e oggetti.
 
+## Gruppo
+
+Gruppo **MindHive** · Challenge 5
+
+| Componente | Ruolo | Di cosa si occupa |
+|---|---|---|
+| Gioacchino | PM | Pianifica le attività, coordina il gruppo e tiene la board |
+| Micaela | Backend | Python, logica del programma e database SQLite |
+| Giusy | Frontend | Pagina web della dashboard e interfaccia |
+| Danilo | Tester | Prove manuali con dati di test per trovare i problemi |
+
 ## Come funziona, in breve
 
 ```text
